@@ -12,6 +12,7 @@ import {
   Wrapper,
 } from "./SkillsStyle";
 
+//
 const Skills = () => {
   return (
     <Container id="skills">
