@@ -9,6 +9,9 @@ import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
+import { useState } from "react";
+import Projects from "./components/Projects/Projects";
+import ProjectDetails from "./components/Projects/ProjectDetails";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -33,6 +36,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
@@ -43,11 +47,15 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
+          <Projects />
           <Wrapper>
             <Education />
             <Contact />
           </Wrapper>
           <Footer />
+          {openModal.state && (
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </Router>
     </ThemeProvider>
