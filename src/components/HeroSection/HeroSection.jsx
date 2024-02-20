@@ -12,7 +12,7 @@ import {
   Img,
   HeroBg,
 } from "./HeroStyle";
-import HeroImg from "../../../public/assets/HeroImage.png";
+import HeroImg from "../../../public/static/HeroImage.png";
 import HeroBgAnimation from "../HeroBgAnimation/HeroBgAnimation";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
