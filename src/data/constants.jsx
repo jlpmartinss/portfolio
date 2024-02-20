@@ -195,7 +195,7 @@ export const projects = [
     date: "Fev 2023",
     description:
       "Personal portfolio. This project showcases my skills, projects, and experiences as a web developer.",
-    image: "public/assets/porfolio.png",
+    image: "/public/assets/porfolio.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/portfolio",
@@ -207,7 +207,7 @@ export const projects = [
     date: "Dec 2023 - Jan 2023",
     description:
       "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. # Email: joao@gmail.com #Password: pass123",
-    image: "public/assets/wild-oasis.png",
+    image: "/public/assets/wild-oasis.png",
     tags: ["React Js", "Supabase", "Redux"],
     category: "web app",
     github: "https://github.com/jlpmartinss/theWildOasis",
@@ -219,7 +219,7 @@ export const projects = [
     date: "Dec 2021 - Jan 2022",
     description:
       "Website app that allows the user to shorter a url link. All the links are saved on local storage. BitLy Api was used to shorter the url (https://dev.bitly.com/).",
-    image: "public/assets/shorter-link.png",
+    image: "/public/assets/shorter-link.png",
     tags: ["React Js", "LocalStorage", "RestApi", "Axios"],
     category: "web app",
     github: "https://github.com/jlpmartinss/shorter-link",
@@ -231,8 +231,7 @@ export const projects = [
     date: "Nov 2023",
     description:
       "A website to simulate to a order pizza through the compony menu.A small project to learn React. Working with components, states, props, and JSX. Conditionally rendering, rendering multiple components. Separation of concerns. Destructing props.",
-    image:
-      "https://private-user-images.githubusercontent.com/50104175/286776833-480c803f-899f-4b16-8931-11be9d3f64be.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg0Mjk3ODQsIm5iZiI6MTcwODQyOTQ4NCwicGF0aCI6Ii81MDEwNDE3NS8yODY3NzY4MzMtNDgwYzgwM2YtODk5Zi00YjE2LTg5MzEtMTFiZTlkM2Y2NGJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjIwVDExNDQ0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViN2VjZTcwMmVmMzIzNTA2MTNmZTQwMDFhMGNkZDQ1OGU2NmNkNDFkNjZhZmIzOGUxN2NlYzUyYTNjMzkyMzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.D5bw_klox0B5jNS8DyHw1zKtp0BeU4Eg5Hy4kGTj-1I",
+    image: "/public/assets/fast-react-pizza.png",
     tags: ["React Js", "Rest APi"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/fast-react-pizza",
