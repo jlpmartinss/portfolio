@@ -197,7 +197,7 @@ export const projects = [
       "Personal portfolio. This project showcases my skills, projects, and experiences as a web developer.",
     image: "src/assets/porfolio.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
-    category: "web app",
+    category: "Web app",
     github: "https://github.com/jlpmartinss/portfolio",
     webapp: "https://trackify.duckdns.org",
   },
