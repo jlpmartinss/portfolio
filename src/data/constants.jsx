@@ -195,7 +195,7 @@ export const projects = [
     date: "Fev 2023",
     description:
       "Personal portfolio. This project showcases my skills, projects, and experiences as a web developer.",
-    image: "src/assets/porfolio.png",
+    image: "public/assets/porfolio.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/portfolio",
@@ -207,7 +207,7 @@ export const projects = [
     date: "Dec 2023 - Jan 2023",
     description:
       "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. # Email: joao@gmail.com #Password: pass123",
-    image: "src/assets/wild-oasis.png",
+    image: "public/assets/wild-oasis.png",
     tags: ["React Js", "Supabase", "Redux"],
     category: "web app",
     github: "https://github.com/jlpmartinss/theWildOasis",
@@ -219,7 +219,7 @@ export const projects = [
     date: "Dec 2021 - Jan 2022",
     description:
       "Website app that allows the user to shorter a url link. All the links are saved on local storage. BitLy Api was used to shorter the url (https://dev.bitly.com/).",
-    image: "src/assets/shorter-link.png",
+    image: "public/assets/shorter-link.png",
     tags: ["React Js", "LocalStorage", "RestApi", "Axios"],
     category: "web app",
     github: "https://github.com/jlpmartinss/shorter-link",
