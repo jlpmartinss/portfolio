@@ -199,7 +199,7 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/portfolio",
-    webapp: "https://trackify.duckdns.org",
+    // webapp: "https://trackify.duckdns.org",
   },
   {
     id: 1,
@@ -213,8 +213,34 @@ export const projects = [
     github: "https://github.com/jlpmartinss/theWildOasis",
     webapp: "https://bookingoasis.netlify.app/",
   },
+  {
+    id: 2,
+    title: "Shorter Link",
+    date: "Dec 2021 - Jan 2022",
+    description:
+      "Website app that allows the user to shorter a url link. All the links are saved on local storage. BitLy Api was used to shorter the url (https://dev.bitly.com/).",
+    image: "src/assets/shorter-link.png",
+    tags: ["React Js", "LocalStorage", "RestApi", "Axios"],
+    category: "web app",
+    github: "https://github.com/jlpmartinss/shorter-link",
+    // webapp: "https://bookingoasis.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Fast react Pizza",
+    date: "Nov 2023",
+    description:
+      "A website to simulate to a order pizza through the compony menu.A small project to learn React. Working with components, states, props, and JSX. Conditionally rendering, rendering multiple components. Separation of concerns. Destructing props.",
+    image:
+      "https://private-user-images.githubusercontent.com/50104175/286776833-480c803f-899f-4b16-8931-11be9d3f64be.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg0Mjk3ODQsIm5iZiI6MTcwODQyOTQ4NCwicGF0aCI6Ii81MDEwNDE3NS8yODY3NzY4MzMtNDgwYzgwM2YtODk5Zi00YjE2LTg5MzEtMTFiZTlkM2Y2NGJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjIwVDExNDQ0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViN2VjZTcwMmVmMzIzNTA2MTNmZTQwMDFhMGNkZDQ1OGU2NmNkNDFkNjZhZmIzOGUxN2NlYzUyYTNjMzkyMzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.D5bw_klox0B5jNS8DyHw1zKtp0BeU4Eg5Hy4kGTj-1I",
+    tags: ["React Js", "Rest APi"],
+    category: "web app",
+    github: "https://github.com/jlpmartinss/fast-react-pizza",
+    // webapp: "https://bookingoasis.netlify.app/",
+  },
 ];
 
+//https://github.com/jlpmartinss/shorter-link
 // export const TimeLineData = [
 //   { year: 2017, text: "Started my journey" },
 //   { year: 2018, text: "Worked as a freelance developer" },
