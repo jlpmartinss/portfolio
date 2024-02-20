@@ -234,7 +234,7 @@ export const projects = [
     image:
       "https://private-user-images.githubusercontent.com/50104175/286776833-480c803f-899f-4b16-8931-11be9d3f64be.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg0Mjk3ODQsIm5iZiI6MTcwODQyOTQ4NCwicGF0aCI6Ii81MDEwNDE3NS8yODY3NzY4MzMtNDgwYzgwM2YtODk5Zi00YjE2LTg5MzEtMTFiZTlkM2Y2NGJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjIwVDExNDQ0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViN2VjZTcwMmVmMzIzNTA2MTNmZTQwMDFhMGNkZDQ1OGU2NmNkNDFkNjZhZmIzOGUxN2NlYzUyYTNjMzkyMzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.D5bw_klox0B5jNS8DyHw1zKtp0BeU4Eg5Hy4kGTj-1I",
     tags: ["React Js", "Rest APi"],
-    category: "web app",
+    category: "Web app",
     github: "https://github.com/jlpmartinss/fast-react-pizza",
     // webapp: "https://bookingoasis.netlify.app/",
   },
