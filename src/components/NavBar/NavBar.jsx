@@ -73,14 +73,14 @@ const NavBar = () => {
             >
               Experience
             </MobileLink>
-            {/* <MobileLink
+            <MobileLink
               href="#projects"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
               Projects
-            </MobileLink> */}
+            </MobileLink>
             <MobileLink
               href="#education"
               onClick={() => {
