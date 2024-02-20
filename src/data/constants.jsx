@@ -195,7 +195,7 @@ export const projects = [
     date: "Fev 2023",
     description:
       "Personal portfolio. This project showcases my skills, projects, and experiences as a web developer.",
-    image: "/public/static/porfolio.png",
+    image: "/static/porfolio.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/portfolio",
@@ -207,7 +207,7 @@ export const projects = [
     date: "Dec 2023 - Jan 2023",
     description:
       "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. # Email: joao@gmail.com #Password: pass123",
-    image: "/public/static/wild-oasis.png",
+    image: "/static/wild-oasis.png",
     tags: ["React Js", "Supabase", "Redux"],
     category: "web app",
     github: "https://github.com/jlpmartinss/theWildOasis",
@@ -219,7 +219,7 @@ export const projects = [
     date: "Dec 2021 - Jan 2022",
     description:
       "Website app that allows the user to shorter a url link. All the links are saved on local storage. BitLy Api was used to shorter the url (https://dev.bitly.com/).",
-    image: "/public/static/shorter-link.png",
+    image: "/static/shorter-link.png",
     tags: ["React Js", "LocalStorage", "RestApi", "Axios"],
     category: "web app",
     github: "https://github.com/jlpmartinss/shorter-link",
@@ -231,7 +231,7 @@ export const projects = [
     date: "Nov 2023",
     description:
       "A website to simulate to a order pizza through the compony menu.A small project to learn React. Working with components, states, props, and JSX. Conditionally rendering, rendering multiple components. Separation of concerns. Destructing props.",
-    image: "/public/static/fast-react-pizza.png",
+    image: "/static/fast-react-pizza.png",
     tags: ["React Js", "Rest APi"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/fast-react-pizza",
