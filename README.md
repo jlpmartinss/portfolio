@@ -4,6 +4,8 @@
 
 My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.
 
+Link live app: https://joaomartins-portfolio.vercel.app/
+
 <img width="960px;" src="https://github.com/jlpmartinss/portfolio/assets/50104175/8d7f58c0-973f-4bc7-887f-d7edaf2be432"/>
 
 ## Technologies Used
