@@ -223,7 +223,7 @@ export const projects = [
     tags: ["React Js", "LocalStorage", "RestApi", "Axios"],
     category: "web app",
     github: "https://github.com/jlpmartinss/shorter-link",
-    // webapp: "https://bookingoasis.netlify.app/",
+    webapp: "https://shorterlink-eta.vercel.app/",
   },
   {
     id: 3,
@@ -235,7 +235,7 @@ export const projects = [
     tags: ["React Js", "Rest APi"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/fast-react-pizza",
-    // webapp: "https://bookingoasis.netlify.app/",
+    webapp: "https://fast-react-pizza-gray-rho.vercel.app/",
   },
 ];
 
