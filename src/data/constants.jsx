@@ -191,8 +191,20 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Frontend Quiz",
+    date: "March 2024",
+    description:
+      "Frontend Mentor challenge. I learned how to retrive data from a .json file and improve my tailwind and react skills.",
+    image: "/static/quiz.png",
+    tags: ["React Js", "Tailwind", "Redux", "JSON"],
+    category: "Web app",
+    github: "https://github.com/jlpmartinss/frontend-quiz-app-main",
+    webapp: "https://frontend-quiz-app-main.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Portfolio",
-    date: "Fev 2023",
+    date: "Fev 2024",
     description:
       "Personal portfolio. This project showcases my skills, projects, and experiences as a web developer.",
     image: "/static/porfolio.png",
@@ -202,9 +214,9 @@ export const projects = [
     // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 1,
+    id: 2,
     title: "The Wild Oasis",
-    date: "Dec 2023 - Jan 2023",
+    date: "Dec 2024 - Jan 2024",
     description:
       "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. # Email: joao@gmail.com #Password: pass123",
     image: "/static/wild-oasis.png",
@@ -214,9 +226,9 @@ export const projects = [
     webapp: "https://bookingoasis.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Shorter Link",
-    date: "Dec 2021 - Jan 2022",
+    date: "Dec 2022 - Jan 2023",
     description:
       "Website app that allows the user to shorter a url link. All the links are saved on local storage. BitLy Api was used to shorter the url (https://dev.bitly.com/).",
     image: "/static/shorter-link.png",
@@ -226,9 +238,9 @@ export const projects = [
     webapp: "https://shorterlink-eta.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Fast react Pizza",
-    date: "Nov 2023",
+    date: "Nov 2024",
     description:
       "A website to simulate to a order pizza through the compony menu.A small project to learn React. Working with components, states, props, and JSX. Conditionally rendering, rendering multiple components. Separation of concerns. Destructing props.",
     image: "/static/fast-react-pizza.png",
