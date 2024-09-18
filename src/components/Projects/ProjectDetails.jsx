@@ -145,7 +145,7 @@ const MemberName = styled.div`
 
 const ButtonGroup = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: ${({ hasWebApp }) => (hasWebApp ? "flex-end" : "center")};
   margin: 12px 0px;
   gap: 12px;
 `;
@@ -181,68 +181,78 @@ const Button = styled.a`
 
 const ProjectDetails = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
+  const hasWebApp = !!project?.webapp;
+
   return (
     <Modal
-      open={true}
+      open={openModal.state}
       onClose={() => setOpenModal({ state: false, project: null })}
+      BackdropProps={{
+        style: { backgroundColor: "rgba(0, 0, 0, 0.7)" },
+      }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
     >
-      <Container>
-        <Wrapper>
-          <CloseRounded
-            style={{
-              position: "absolute",
-              top: "10px",
-              right: "20px",
-              cursor: "pointer",
-            }}
-            onClick={() => setOpenModal({ state: false, project: null })}
-          />
-          <Image src={project?.image} />
-          <Title>{project?.title}</Title>
-          <Date>{project.date}</Date>
-          <Tags>
-            {project?.tags.map((tag) => (
-              <Tag key={tag}>{tag}</Tag>
-            ))}
-          </Tags>
-          <Desc>{project?.description}</Desc>
-          {project.member && (
-            <>
-              <Label>Members</Label>
-              <Members>
-                {project?.member.map((member) => (
-                  <Member key={member}>
-                    <MemberImage src={member.img} />
-                    <MemberName>{member.name}</MemberName>
-                    <a
-                      href={member.github}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <GitHub />
-                    </a>
-                    <a
-                      href={member.linkedin}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <LinkedIn />
-                    </a>
-                  </Member>
-                ))}
-              </Members>
-            </>
-          )}
-          <ButtonGroup>
-            <Button dull href={project?.github} target="new">
-              View Code
-            </Button>
+      <Wrapper onClick={(e) => e.stopPropagation()}>
+        <CloseRounded
+          style={{
+            position: "absolute",
+            top: "10px",
+            right: "20px",
+            cursor: "pointer",
+          }}
+          onClick={() => setOpenModal({ state: false, project: null })}
+        />
+        <Image src={project?.image} />
+        <Title>{project?.title}</Title>
+        <Date>{project.date}</Date>
+        <Tags>
+          {project?.tags.map((tag) => (
+            <Tag key={tag}>{tag}</Tag>
+          ))}
+        </Tags>
+        <Desc>{project?.description}</Desc>
+        {project.member && (
+          <>
+            <Label>Members</Label>
+            <Members>
+              {project?.member.map((member) => (
+                <Member key={member}>
+                  <MemberImage src={member.img} />
+                  <MemberName>{member.name}</MemberName>
+                  <a
+                    href={member.github}
+                    target="new"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    <GitHub />
+                  </a>
+                  <a
+                    href={member.linkedin}
+                    target="new"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    <LinkedIn />
+                  </a>
+                </Member>
+              ))}
+            </Members>
+          </>
+        )}
+        <ButtonGroup hasWebApp={hasWebApp}>
+          <Button dull href={project?.github} target="new">
+            View Code
+          </Button>
+          {hasWebApp && (
             <Button href={project?.webapp} target="new">
               View Live App
             </Button>
-          </ButtonGroup>
-        </Wrapper>
-      </Container>
+          )}
+        </ButtonGroup>
+      </Wrapper>
     </Modal>
   );
 };
