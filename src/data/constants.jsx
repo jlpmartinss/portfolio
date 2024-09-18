@@ -1,10 +1,10 @@
 export const Bio = {
   name: "João Martins",
-  roles: ["Front End Developer", "Web Developer", "Programmer"],
+  roles: ["Mobile Developer", "Web Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   resume:
-    "https://drive.google.com/file/d/1TPY4lb-U11wlMne_tE7J4odSZ7KH59QE/view?usp=sharing",
+    "https://drive.google.com/file/d/1cVet_-vZZCBhGnnyxfHiUkdMkWDXisd-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jo%C3%A3o-martins-652668206/",
   github: "https://github.com/jlpmartinss/",
   insta: "https://www.instagram.com/jmarti_ns/face",
@@ -13,17 +13,40 @@ export const Bio = {
 
 export const skills = [
   {
+    title: "Android Developer",
+    skills: [
+      {
+        name: "Android Studio",
+        image:
+          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/android-studio-icon.png",
+      },
+      {
+        name: "Jetpack Compose",
+        image:
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC97Z8BResg5dlPqczsRCFhP6zewWX0X0e7fVPG-G7PuUZwwZVsi9OPoqJYkgqT2h0FI95SsmWzVEgpt8b8HAqFiIxZ98TFtY4lE0b8UrtVJ2HrJebRwl6C9DslsQDl9KnBIrdHS6LtkY/s1600/jetpack+compose+icon_RGB.png",
+      },
+      {
+        name: "Kotlin",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/1200px-Kotlin_Icon.png",
+      },
+      {
+        name: "XML",
+        image: "https://www.svgrepo.com/show/31053/xml.svg",
+      },
+      {
+        name: "React Native",
+        image: "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
+      },
+    ],
+  },
+  {
     title: "Frontend",
     skills: [
       {
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "React Native",
-        image:
-          "data:image/png;base64,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",
       },
       {
         name: "Tailwind CSS",
@@ -132,8 +155,26 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Sky_Group_logo_2020.svg/1024px-Sky_Group_logo_2020.svg.png",
+    role: "Android Developer",
+    company: "Sky Portugal",
+    date: "July 2024 - September 2024",
+    desc: "During my two-month summer internship at Sky Portugal, a leading European entertainment and technology company, I worked in an agile development environment, where I quickly adapted to practices such as daily stand-ups, retrospectives, grooming, and sprint planning using Jira. As an Android Developer, I initially completed a learning project to familiarize myself with the team's codebase and development processes. Afterward, I successfully implemented a new feature, which I presented to the product team before integrating it into the main codebase. I also handled various tickets, collaborating with other developers to enhance the app's functionality. This experience honed my skills in agile methodologies and real-world Android development within a dynamic and collaborative environment.",
+    skills: [
+      "Android Studio",
+      "Kotlin",
+      "Jetpack Compose",
+      "XML",
+      "MVVM",
+      "Proxy man",
+      "Rest Api",
+      "Agile Methodologies",
+    ],
+  },
+  {
+    id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm0ePvb9_I1x-1HVdBPvd76h99st31b7J3OQ&usqp=CAU",
-    role: "Frontend Engineer",
+    role: "Web Developer",
     company: "Arditi",
     date: "Setember 2022 - June 2023",
     desc: "Responsible for designing and implementing a web application for viewing cetacean tagging data. This application will be used for educational purposes and to raise awareness of marine biodiversity. This project is included in the project INTERREG - INTERTÁGUAS.",
@@ -146,20 +187,17 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
-    id: 2,
+    id: 1,
     img: "https://i0.wp.com/funchalnoticias.net/wp-content/uploads/2015/05/miti_official_logo.png?resize=193%2C145&ssl=1",
     role: "Web Developer",
     company: "M-iti",
     date: "July 2021 - Agust 2021",
     desc: "Programming and development of functionalities and components of the Dynamic Information System Modeller and Executer (DISME) platform, promoted by the enterprise engineering lab (http://eelab.m-iti.org) of M-ITI/ARDITI/UMa under supervision of David Aveiro (Phd). Used tools like Rest Api, Node.JS, Bootstrap and Git. Programming in PHP, TypeScript and SQL.",
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
     skills: ["HTML", "CSS", "TypeScript", "NodeJs", "SQL", "Rest Api"],
   },
 ];
-//The Ultimate React Course 2024: React Redux & more
 
 export const education = [
   {
@@ -191,6 +229,57 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Gas Tracker",
+    date: "Aug 2024",
+    description:
+      "Fuel Price Tracker is an Android app that provides up-to-date gas prices in Madeira Island - Portugal, allowing users to monitor changes and find the gas stations nearby.",
+    image: "/static/gas.png",
+    tags: ["Kotlin", "Jetpack Compose", "Android Studio"],
+    category: "android app",
+    github: "https://github.com/jlpmartinss/GasTracker",
+  },
+  {
+    id: 1,
+    title: "Crypto Coins",
+    date: "Sept 2024",
+    description:
+      "A simple Android app to display cryptocurrency information using the CoinPaprika API. The app follows Clean Architecture principles and uses the MVVM pattern.",
+    image: "/static/crypto-app.png",
+    tags: [
+      "Kotlin",
+      "MVMM",
+      "Clean Architeture",
+      "Jetpack Compose",
+      "Dagger Hilt",
+      "Coil",
+      "Android Studio",
+    ],
+    category: "android app",
+    github: "https://github.com/jlpmartinss/CryptoApp",
+  },
+  {
+    id: 2,
+    title: "Anime List",
+    date: "Sept 2024",
+    description:
+      "Anime Explorer is an Android app that consumes the Kitsu Anime API to display trending anime and detailed anime information. The app uses MVVM architecture, Dagger Hilt for dependency injection, and Jetpack Compose for the UI.",
+    image: "/static/anime.png",
+    tags: [
+      "Kotlin",
+      "MVMM",
+      "Jetpack Compose",
+      "Dagger Hilt",
+      "Coil",
+      "Retrofit",
+      "Moshi",
+      "OkHttp",
+      "Android Studio",
+    ],
+    category: "android app",
+    github: "https://github.com/jlpmartinss/AnimeListApp",
+  },
+  {
+    id: 3,
     title: "Frontend Quiz",
     date: "March 2024",
     description:
@@ -202,7 +291,7 @@ export const projects = [
     webapp: "https://frontend-quiz-app-main.vercel.app/",
   },
   {
-    id: 1,
+    id: 4,
     title: "Portfolio",
     date: "Fev 2024",
     description:
@@ -211,10 +300,9 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
     category: "Web app",
     github: "https://github.com/jlpmartinss/portfolio",
-    // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 2,
+    id: 5,
     title: "The Wild Oasis",
     date: "Dec 2024 - Jan 2024",
     description:
@@ -226,7 +314,7 @@ export const projects = [
     webapp: "https://bookingoasis.netlify.app/",
   },
   {
-    id: 3,
+    id: 6,
     title: "Shorter Link",
     date: "Dec 2022 - Jan 2023",
     description:
@@ -238,7 +326,7 @@ export const projects = [
     webapp: "https://shorterlink-eta.vercel.app/",
   },
   {
-    id: 4,
+    id: 7,
     title: "Fast react Pizza",
     date: "Nov 2024",
     description:
@@ -250,12 +338,3 @@ export const projects = [
     webapp: "https://fast-react-pizza-gray-rho.vercel.app/",
   },
 ];
-
-//https://github.com/jlpmartinss/shorter-link
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
