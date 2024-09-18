@@ -13,7 +13,7 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Android Developer",
+    title: "Mobile Developer",
     skills: [
       {
         name: "Android Studio",
