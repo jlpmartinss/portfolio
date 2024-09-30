@@ -247,7 +247,7 @@ export const projects = [
     image: "/static/crypto-app.png",
     tags: [
       "Kotlin",
-      "MVMM",
+      "MVVM",
       "Clean Architeture",
       "Jetpack Compose",
       "Dagger Hilt",
@@ -266,7 +266,7 @@ export const projects = [
     image: "/static/anime.png",
     tags: [
       "Kotlin",
-      "MVMM",
+      "MVVM",
       "Jetpack Compose",
       "Dagger Hilt",
       "Coil",
