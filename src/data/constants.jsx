@@ -262,7 +262,7 @@ export const projects = [
     title: "Movie App",
     date: "July 2024",
     description:
-      "This project replicates the home screen page of the Peacock app as part of my internship. The application fetches data from Sky's API endpoints and displays it with dynamic UI components to mimic the experience of the original app. Displays rails with series, movies, and other categories. The pager scrolls automatically, and users can interact with it to view different content.",
+      "This project replicates the home screen page of the Peacock app as part of my internship. The application fetches data from Sky's API endpoints and displays it with dynamic UI components to mimic the experience of the original app. Displays rails with series, movies, and other categories. The pager scrolls automatically, and users can interact with it to view different content. [this repository is private]",
     image: "/static/peacock.png",
     tags: [
       "Kotlin",
