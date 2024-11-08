@@ -259,6 +259,25 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Movie App",
+    date: "July 2024",
+    description:
+      "This project replicates the home screen page of the Peacock app as part of my internship. The application fetches data from Sky's API endpoints and displays it with dynamic UI components to mimic the experience of the original app. Displays rails with series, movies, and other categories. The pager scrolls automatically, and users can interact with it to view different content.",
+    image: "/static/peacock.png",
+    tags: [
+      "Kotlin",
+      "Jetpack Compose",
+      "MVVM",
+      "Dagger hilt",
+      "Android Studio",
+      "Retrofit",
+      "Coil",
+    ],
+    category: "android app",
+    github: "https://github.com/jlpmartinss/movieApp",
+  },
+  {
+    id: 3,
     title: "Anime List",
     date: "Sept 2024",
     description:
@@ -279,7 +298,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/AnimeListApp",
   },
   {
-    id: 3,
+    id: 4,
     title: "Frontend Quiz",
     date: "March 2024",
     description:
@@ -291,7 +310,7 @@ export const projects = [
     webapp: "https://frontend-quiz-app-main.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio",
     date: "Fev 2024",
     description:
@@ -302,7 +321,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/portfolio",
   },
   {
-    id: 5,
+    id: 6,
     title: "The Wild Oasis",
     date: "Dec 2024 - Jan 2024",
     description:
@@ -314,7 +333,7 @@ export const projects = [
     webapp: "https://bookingoasis.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Shorter Link",
     date: "Dec 2022 - Jan 2023",
     description:
@@ -326,7 +345,7 @@ export const projects = [
     webapp: "https://shorterlink-eta.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Fast react Pizza",
     date: "Nov 2024",
     description:
