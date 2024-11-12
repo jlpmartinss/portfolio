@@ -7,36 +7,31 @@ import {
   SkillItem,
   SkillList,
   SkillTitle,
-  SkillsContainer,
   Title,
   Wrapper,
 } from "./SkillsStyle";
 
-//
 const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
         <Description>
-          Here are some of my skills on which I have been working on for the
-          past 2 years.
+          Here are some of my skills and my prefered technologies.
         </Description>
-        <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill key={skill}>
-              <SkillTitle>{skill.title}</SkillTitle>
-              <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem key={item}>
-                    <SkillImage src={item.image} />
-                    {item.name}
-                  </SkillItem>
-                ))}
-              </SkillList>
-            </Skill>
-          ))}
-        </SkillsContainer>
+        {skills.map((skill) => (
+          <Skill key={skill.title}>
+            <SkillTitle>{skill.title}</SkillTitle>
+            <SkillList>
+              {skill.skills.map((item) => (
+                <SkillItem key={item.name}>
+                  <SkillImage src={item.image} alt={item.name} />
+                  {item.name}
+                </SkillItem>
+              ))}
+            </SkillList>
+          </Skill>
+        ))}
       </Wrapper>
     </Container>
   );
