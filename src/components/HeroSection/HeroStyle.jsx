@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  background: ${({ theme }) => theme.card_light};
+  background: ${({ theme }) => theme.bgLight};
   display: flex;
   justify-content: center;
   position: relative;
@@ -153,7 +153,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.text_grey};
 
   @media (max-width: 960px) {
     text-align: center;
@@ -196,11 +196,11 @@ export const ResumeButton = styled.a`
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
   );
-  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
+
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 20px 20px 60px #1f2634;
+
     filter: brightness(1);
   }
 

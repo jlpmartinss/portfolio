@@ -232,7 +232,7 @@ const HeroBgAnimation = () => (
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(301 301) rotate(90) scale(300)"
         >
-          <stop offset="0.333333" stopColor="#FBFBFB" />
+          <stop offset="0.333333" stopColor="#000" />
           <stop offset="1" stopColor="white" stopOpacity="0" />
         </radialGradient>
         <radialGradient
@@ -243,7 +243,7 @@ const HeroBgAnimation = () => (
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(301 301) rotate(90) scale(300)"
         >
-          <stop offset="0.333333" stopColor="#FBFBFB" />
+          <stop offset="0.333333" stopColor="#000" />
           <stop offset="1" stopColor="white" stopOpacity="0" />
         </radialGradient>
         <radialGradient
@@ -254,7 +254,7 @@ const HeroBgAnimation = () => (
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(301 301) rotate(90) scale(300)"
         >
-          <stop offset="0.333333" stopColor="#FBFBFB" />
+          <stop offset="0.333333" stopColor="#000" />
           <stop offset="1" stopColor="white" stopOpacity="0" />
         </radialGradient>
         <linearGradient

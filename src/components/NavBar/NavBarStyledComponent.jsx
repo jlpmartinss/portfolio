@@ -56,7 +56,7 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_white};
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;

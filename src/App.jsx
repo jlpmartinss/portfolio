@@ -8,13 +8,12 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import Footer from "./components/Footer/Footer";
-import Contact from "./components/Contact/Contact";
 import { useState } from "react";
 import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 
 const Body = styled.div`
-  background-color: ${({ theme }) => theme.bg};
+  background-color: ${({ theme }) => theme.bgLight};
   width: 100%;
   height: 100%;
   overflow-x: hidden;
