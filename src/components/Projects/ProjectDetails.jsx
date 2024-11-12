@@ -33,7 +33,7 @@ const Wrapper = styled.div`
 const Title = styled.div`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_white};
   margin: 8px 6px 0px 6px;
   @media only screen and (max-width: 600px) {
     font-size: 24px;
@@ -54,7 +54,7 @@ const Date = styled.div`
 const Desc = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_secondary};
   margin: 8px 6px;
   @media only screen and (max-width: 600px) {
     font-size: 14px;
@@ -163,9 +163,10 @@ const Button = styled.a`
     dull &&
     `
         background-color: ${theme.bgLight};
-        color: ${theme.text_secondary};
+        color: ${theme.text_primary};
         &:hover {
             background-color: ${({ theme }) => theme.bg + 99};
+            color: ${theme.text_white};
         }
     `}
   cursor: pointer;
@@ -203,6 +204,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             top: "10px",
             right: "20px",
             cursor: "pointer",
+            color: "white",
           }}
           onClick={() => setOpenModal({ state: false, project: null })}
         />
