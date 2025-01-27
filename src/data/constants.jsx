@@ -1,10 +1,10 @@
 export const Bio = {
   name: "João Martins",
-  roles: ["Mobile Developer", "Web Developer", "Programmer"],
+  roles: ["Web Developer", "Software Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   resume:
-    "https://drive.google.com/file/d/1cVet_-vZZCBhGnnyxfHiUkdMkWDXisd-/view?usp=sharing",
+    "https://drive.google.com/file/d/1vdB5DOGDOKAa9M0BnNkqzbpw25BShF7_/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jo%C3%A3o-martins-652668206/",
   github: "https://github.com/jlpmartinss/",
   insta: "https://www.instagram.com/jmarti_ns/face",
@@ -15,21 +15,6 @@ export const skills = [
   {
     title: "Software Developer",
     skills: [
-      {
-        name: "Android Studio",
-        image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/android-studio-icon.png",
-      },
-      {
-        name: "Jetpack Compose",
-        image:
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC97Z8BResg5dlPqczsRCFhP6zewWX0X0e7fVPG-G7PuUZwwZVsi9OPoqJYkgqT2h0FI95SsmWzVEgpt8b8HAqFiIxZ98TFtY4lE0b8UrtVJ2HrJebRwl6C9DslsQDl9KnBIrdHS6LtkY/s1600/jetpack+compose+icon_RGB.png",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/1200px-Kotlin_Icon.png",
-      },
       {
         name: "React Native",
         image: "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
@@ -57,6 +42,21 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Android Studio",
+        image:
+          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/android-studio-icon.png",
+      },
+      {
+        name: "Jetpack Compose",
+        image:
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC97Z8BResg5dlPqczsRCFhP6zewWX0X0e7fVPG-G7PuUZwwZVsi9OPoqJYkgqT2h0FI95SsmWzVEgpt8b8HAqFiIxZ98TFtY4lE0b8UrtVJ2HrJebRwl6C9DslsQDl9KnBIrdHS6LtkY/s1600/jetpack+compose+icon_RGB.png",
+      },
+      {
+        name: "Kotlin",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/1200px-Kotlin_Icon.png",
       },
       {
         name: "Material UI",
@@ -108,6 +108,15 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "data:image/jpeg;base64,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",
+    role: "Front end Developer",
+    company: "Ethical Algorithm",
+    date: "December 2024",
+    desc: "Developed new features as a Freelancer, for a digital menu platform designed for restaurants and coffee shops, with React and Firebase for backend services and data storage. Developed client dashboard functionalities, including forms to upload and manage data",
+    skills: ["ReactJS", "Firebase", "Material UI", "HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 1,
     img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Sky_Group_logo_2020.svg/1024px-Sky_Group_logo_2020.svg.png",
     role: "Android Developer",
     company: "Sky Portugal",
@@ -125,7 +134,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm0ePvb9_I1x-1HVdBPvd76h99st31b7J3OQ&usqp=CAU",
     role: "Web Developer",
     company: "Arditi",
@@ -142,7 +151,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     img: "https://i0.wp.com/funchalnoticias.net/wp-content/uploads/2015/05/miti_official_logo.png?resize=193%2C145&ssl=1",
     role: "Web Developer",
     company: "M-iti",
@@ -185,6 +194,65 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Fast react Pizza",
+    date: "Nov 2024",
+    description:
+      "A website to simulate to a order pizza through the compony menu.A small project to learn React. Working with components, states, props, and JSX. Conditionally rendering, rendering multiple components. Separation of concerns. Destructing props.",
+    image: "/static/fast-react-pizza.png",
+    tags: ["React Js", "Rest APi"],
+    category: "Web app",
+    github: "https://github.com/jlpmartinss/fast-react-pizza",
+    webapp: "https://fast-react-pizza-gray-rho.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Frontend Quiz",
+    date: "March 2024",
+    description:
+      "Frontend Mentor challenge. I learned how to retrive data from a .json file and improve my tailwind and react skills.",
+    image: "/static/quiz.png",
+    tags: ["React Js", "Tailwind", "Redux", "JSON"],
+    category: "Web app",
+    github: "https://github.com/jlpmartinss/frontend-quiz-app-main",
+    webapp: "https://frontend-quiz-app-main.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Portfolio",
+    date: "Fev 2024",
+    description:
+      "Personal portfolio. This project showcases my skills, projects, and experiences as a web developer.",
+    image: "/static/porfolio.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
+    category: "Web app",
+    github: "https://github.com/jlpmartinss/portfolio",
+  },
+  {
+    id: 4,
+    title: "Shorter Link",
+    date: "Dec 2022 - Jan 2023",
+    description:
+      "Website app that allows the user to shorter a url link. All the links are saved on local storage. BitLy Api was used to shorter the url (https://dev.bitly.com/).",
+    image: "/static/shorter-link.png",
+    tags: ["React Js", "LocalStorage", "RestApi", "Axios"],
+    category: "web app",
+    github: "https://github.com/jlpmartinss/shorter-link",
+    webapp: "https://shorterlink-eta.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "The Wild Oasis",
+    date: "Dec 2024 - Jan 2024",
+    description:
+      "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. # Email: joao@gmail.com #Password: pass123",
+    image: "/static/wild-oasis.png",
+    tags: ["React Js", "Supabase", "Redux"],
+    category: "web app",
+    github: "https://github.com/jlpmartinss/theWildOasis",
+    webapp: "https://bookingoasis.netlify.app/",
+  },
+  {
+    id: 6,
     title: "Crypto Coins",
     date: "Sept 2024",
     description:
@@ -203,7 +271,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/CryptoApp",
   },
   {
-    id: 2,
+    id: 7,
     title: "Movie App",
     date: "July 2024",
     description:
@@ -222,7 +290,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/movieApp",
   },
   {
-    id: 3,
+    id: 8,
     title: "Anime List",
     date: "Sept 2024",
     description:
@@ -241,64 +309,5 @@ export const projects = [
     ],
     category: "android app",
     github: "https://github.com/jlpmartinss/AnimeListApp",
-  },
-  {
-    id: 4,
-    title: "Frontend Quiz",
-    date: "March 2024",
-    description:
-      "Frontend Mentor challenge. I learned how to retrive data from a .json file and improve my tailwind and react skills.",
-    image: "/static/quiz.png",
-    tags: ["React Js", "Tailwind", "Redux", "JSON"],
-    category: "Web app",
-    github: "https://github.com/jlpmartinss/frontend-quiz-app-main",
-    webapp: "https://frontend-quiz-app-main.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "Portfolio",
-    date: "Fev 2024",
-    description:
-      "Personal portfolio. This project showcases my skills, projects, and experiences as a web developer.",
-    image: "/static/porfolio.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Eslint"],
-    category: "Web app",
-    github: "https://github.com/jlpmartinss/portfolio",
-  },
-  {
-    id: 6,
-    title: "The Wild Oasis",
-    date: "Dec 2024 - Jan 2024",
-    description:
-      "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. # Email: joao@gmail.com #Password: pass123",
-    image: "/static/wild-oasis.png",
-    tags: ["React Js", "Supabase", "Redux"],
-    category: "web app",
-    github: "https://github.com/jlpmartinss/theWildOasis",
-    webapp: "https://bookingoasis.netlify.app/",
-  },
-  {
-    id: 7,
-    title: "Shorter Link",
-    date: "Dec 2022 - Jan 2023",
-    description:
-      "Website app that allows the user to shorter a url link. All the links are saved on local storage. BitLy Api was used to shorter the url (https://dev.bitly.com/).",
-    image: "/static/shorter-link.png",
-    tags: ["React Js", "LocalStorage", "RestApi", "Axios"],
-    category: "web app",
-    github: "https://github.com/jlpmartinss/shorter-link",
-    webapp: "https://shorterlink-eta.vercel.app/",
-  },
-  {
-    id: 8,
-    title: "Fast react Pizza",
-    date: "Nov 2024",
-    description:
-      "A website to simulate to a order pizza through the compony menu.A small project to learn React. Working with components, states, props, and JSX. Conditionally rendering, rendering multiple components. Separation of concerns. Destructing props.",
-    image: "/static/fast-react-pizza.png",
-    tags: ["React Js", "Rest APi"],
-    category: "Web app",
-    github: "https://github.com/jlpmartinss/fast-react-pizza",
-    webapp: "https://fast-react-pizza-gray-rho.vercel.app/",
   },
 ];
