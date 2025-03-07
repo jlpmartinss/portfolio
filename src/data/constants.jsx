@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   resume:
-    "https://drive.google.com/file/d/1vdB5DOGDOKAa9M0BnNkqzbpw25BShF7_/view?usp=sharing",
+    "https://drive.google.com/file/d/1eGvCpPxDlxc9DU-16OcMeRo489-oKELP/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jo%C3%A3o-martins-652668206/",
   github: "https://github.com/jlpmartinss/",
   insta: "https://www.instagram.com/jmarti_ns/face",
@@ -111,7 +111,7 @@ export const experiences = [
     img: "data:image/jpeg;base64,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",
     role: "Front end Developer",
     company: "Ethical Algorithm",
-    date: "December 2024",
+    date: "Nov 2024 - Jan 2025",
     desc: "Developed new features as a Freelancer, for a digital menu platform designed for restaurants and coffee shops, with React and Firebase for backend services and data storage. Developed client dashboard functionalities, including forms to upload and manage data",
     skills: ["ReactJS", "Firebase", "Material UI", "HTML", "CSS", "JavaScript"],
   },
