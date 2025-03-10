@@ -16,13 +16,13 @@ export const skills = [
     title: "Software Developer",
     skills: [
       {
-        name: "React Native",
-        image: "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
-      },
-      {
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "React Native",
+        image: "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
       },
       {
         name: "Tailwind CSS",
@@ -183,6 +183,18 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "The Wild Oasis",
+    date: "Dec 2024 - Jan 2024",
+    description:
+      "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. I used React Query, Styled Components, React Hook Form, Supabase, advanced compound component pattern, authentication, charts, dark mode. # Email: joao@gmail.com #Password: pass123",
+    image: "/static/wild-oasis.png",
+    tags: ["React Js", "Supabase", "Redux"],
+    category: "web app",
+    github: "https://github.com/jlpmartinss/theWildOasis",
+    webapp: "https://bookingoasis.netlify.app/",
+  },
+  {
+    id: 1,
     title: "Gas Tracker",
     date: "Aug 2024",
     description:
@@ -193,7 +205,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/GasTracker",
   },
   {
-    id: 1,
+    id: 2,
     title: "Fast react Pizza",
     date: "Nov 2024",
     description:
@@ -205,7 +217,7 @@ export const projects = [
     webapp: "https://fast-react-pizza-gray-rho.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Frontend Quiz",
     date: "March 2024",
     description:
@@ -217,7 +229,7 @@ export const projects = [
     webapp: "https://frontend-quiz-app-main.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio",
     date: "Fev 2024",
     description:
@@ -228,7 +240,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/portfolio",
   },
   {
-    id: 4,
+    id: 5,
     title: "Shorter Link",
     date: "Dec 2022 - Jan 2023",
     description:
@@ -240,19 +252,7 @@ export const projects = [
     webapp: "https://shorterlink-eta.vercel.app/",
   },
   {
-    id: 5,
-    title: "The Wild Oasis",
-    date: "Dec 2024 - Jan 2024",
-    description:
-      "Developed a full-stack dashboard web application that allows to emulate a app to manage cabins/rooms bookings. # Email: joao@gmail.com #Password: pass123",
-    image: "/static/wild-oasis.png",
-    tags: ["React Js", "Supabase", "Redux"],
-    category: "web app",
-    github: "https://github.com/jlpmartinss/theWildOasis",
-    webapp: "https://bookingoasis.netlify.app/",
-  },
-  {
-    id: 6,
+    id: 7,
     title: "Crypto Coins",
     date: "Sept 2024",
     description:
@@ -271,7 +271,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/CryptoApp",
   },
   {
-    id: 7,
+    id: 8,
     title: "Movie App",
     date: "July 2024",
     description:
@@ -290,7 +290,7 @@ export const projects = [
     github: "https://github.com/jlpmartinss/movieApp",
   },
   {
-    id: 8,
+    id: 9,
     title: "Anime List",
     date: "Sept 2024",
     description:
